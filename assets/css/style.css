@@ -120,6 +120,10 @@ footer .attribution a:hover {
 }
 
 @media (max-width: 940px) {
+  header {
+    gap: 20px;
+  }
+
   main {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
